@@ -32,7 +32,7 @@ window.login= function(e) {
       var aaaa =  (success.user.uid);
       localStorage.setItem("uid",aaaa)
       console.log(aaaa)
-      window.location.href = "nettbutikk.html";
+      window.location.href = "hovedside.html";
      // localStorage.setItem(success,user,uid)
       
     })
