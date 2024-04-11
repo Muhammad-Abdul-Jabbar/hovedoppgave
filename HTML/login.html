@@ -15,7 +15,7 @@
     <form action="#" onsubmit="login(event)">
         
     <div class="container">
-        <h1>Velkommen tilbake</h1>
+        <h1> welcome back</h1>
         <div>
             <input type="text" name="" placeholder="Email" id="email">
         </div>
@@ -26,11 +26,14 @@
         <button id="signin" value="sign in" class="btn">sign in</button>
 
         <div class="link">
-            <a href="/html/reg.html">trykk her for å registrere deg</a>
-            <a href="/html/tos.html">terms of service</a>
+            <a href="/html/reg.html">tap her to register</a>
+            <a style="color: blue;" href="/HTML/password.html">forgot password?</a>
         </div>
     </div>
- 
+    <footer style="gap: 14;" >
+        <a style="color:  #B9B8C1;">c bjørnholt skole 2024 </a>
+        <a style="color:  #B9B8C1;" href="/html/tos.html">terms of service</a>
+    </footer>
     </form>
 
 
@@ -38,9 +41,15 @@
         .link{
         display: flex;
          justify-content: space-between;
-        }  
+        } 
+        footer{
+         display: flex;
+         justify-content: center;
+         gap: 14%;
+        }   
           </style>
 
 </body>
 <script type="module" src="/JavaScript/login.js"></script>
+<script type="module" src="/JavaScript/password.js"></script>
 </html>
