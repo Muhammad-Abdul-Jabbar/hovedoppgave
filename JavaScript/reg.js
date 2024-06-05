@@ -7,12 +7,13 @@
 
   // Your web app's Firebase configuration
   const firebaseConfig = {
-    apiKey: "AIzaSyBUxSe6guEi8HsQ1mTmx5Cka41R6LXVUKw",
-    authDomain: "tentamen-pr.firebaseapp.com",
-    projectId: "tentamen-pr",
-    storageBucket: "tentamen-pr.appspot.com",
-    messagingSenderId: "506204527398",
-    appId: "1:506204527398:web:cbefb3fd40aad41bcfffe7"
+    apiKey: "AIzaSyARM8FznTE6ImacxWuJL5mn09szgnlSwcQ",
+    authDomain: "test-a1849.firebaseapp.com",
+    projectId: "test-a1849",
+    storageBucket: "test-a1849.appspot.com",
+    messagingSenderId: "799317876825",
+    appId: "1:799317876825:web:e2d68fe775b772918b1148",
+    measurementId: "G-DKX4DBGTZE"
   };
 
   // Initialize Firebase
